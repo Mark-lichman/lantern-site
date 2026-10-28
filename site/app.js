@@ -3,9 +3,9 @@
  * Shared by / and /pilot/.
  *
  * ===================== CONFIGURE HERE =====================
- * WEBHOOK_URL: GoHighLevel (GHL) inbound webhook URL. While empty on the live site, forms show the mailto fallback; form
- *              submissions are only logged to the console (the visitor still
- *              sees the thank-you message), so fill it in before launch.
+ * WEBHOOK_URL: GoHighLevel (GHL) inbound webhook URL. While empty, the live site shows the mailto
+ *              fallback on submit; on localhost submissions are only logged
+ *              to the console (add ?crm=1 to really send).
  * GA_ID:       Google Analytics 4 measurement ID, e.g. 'G-XXXXXXXXXX'.
  *              While empty, no analytics script is loaded at all.
  * ==========================================================
